@@ -1,0 +1,160 @@
+.bg-add_user {
+    width: 15px; height: 16px;
+    background: url('css_sprites.png') -53px -5px;
+}
+
+x
+.bg-sign_in {
+    width: 15px; height: 17px;
+    background: url('css_sprites.png') -78px -5px;
+}
+
+x
+.bg-heart_top {
+    width: 37px; height: 33px;
+    background: url('css_sprites.png') -457px -5px;
+}
+
+x
+.bg-bag {
+    width: 35px; height: 33px;
+    background: url('css_sprites.png') -276px -5px;
+}
+
+x
+.bg-arrow_point_to_bottom {
+    width: 14px; height: 8px;
+    background: url('css_sprites.png') -5px -5px;
+}
+
+x
+.bg-search {
+    width: 14px; height: 13px;
+    background: url('css_sprites.png') -29px -5px;
+}
+
+x
+.bg-medal {
+    width: 62px; height: 62px;
+    background: url('css_sprites.png') -980px -5px;
+}
+
+x
+.bg-operator {
+    width: 36px; height: 56px;
+    background: url('css_sprites.png') -411px -5px;
+}
+
+x
+.bg-competition {
+    width: 62px; height: 60px;
+    background: url('css_sprites.png') -1052px -5px;
+}
+
+x
+.bg-shopping_bag {
+    width: 66px; height: 60px;
+    background: url('css_sprites.png') -1196px -5px;
+}
+
+x
+.bg-star_color {
+    width: 15px; height: 15px;
+    background: url('css_sprites.png') -103px -5px;
+}
+
+x
+.bg-favorites_news {
+    width: 62px; height: 61px;
+    background: url('css_sprites.png') -1124px -5px;
+}
+
+x
+.bg-right_arrow_circular_button {
+    width: 35px; height: 35px;
+    background: url('css_sprites.png') -321px -5px;
+}
+
+x
+.bg-right_arrow_circular_button_2 {
+    width: 35px; height: 35px;
+    background: url('css_sprites.png') -366px -5px;
+}
+
+x
+.bg-flower {
+    width: 58px; height: 42px;
+    background: url('css_sprites.png') -912px -5px;
+}
+
+x
+.bg-map_pointer_color {
+    width: 21px; height: 31px;
+    background: url('css_sprites.png') -128px -5px;
+}
+
+x
+.bg-email_color {
+    width: 27px; height: 25px;
+    background: url('css_sprites.png') -159px -5px;
+}
+
+x
+.bg-smartphone_color {
+    width: 30px; height: 32px;
+    background: url('css_sprites.png') -196px -5px;
+}
+
+x
+.bg-alarm_clock_color {
+    width: 30px; height: 30px;
+    background: url('css_sprites.png') -236px -5px;
+}
+
+x
+.bg-vk_white {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -504px -5px;
+}
+
+x
+.bg-instagram {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -555px -5px;
+}
+
+x
+.bg-facebook {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -606px -5px;
+}
+
+x
+.bg-google {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -657px -5px;
+}
+
+x
+.bg-vk {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -708px -5px;
+}
+
+x
+.bg-instagram_color {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -759px -5px;
+}
+
+x
+.bg-facebook_color {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -810px -5px;
+}
+
+x
+.bg-google_color {
+    width: 41px; height: 41px;
+    background: url('css_sprites.png') -861px -5px;
+}

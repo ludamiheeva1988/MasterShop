@@ -1,0 +1,12 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "CenturyGothic-Italic";
+  src: url("./fonts/CenturyGothicItalic.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/CenturyGothicItalic.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/CenturyGothicItalic.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/CenturyGothicItalic.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/CenturyGothicItalic.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/CenturyGothicItalic.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

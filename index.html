@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+      $(document).ready(function(){
+      $(".owl-carousel").owlCarousel();
+    });
+  </script>
+  <title>МАСТЕР. Все для салонов красоты</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="container-fluid mybackgroundtop">
+        <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed border_menu_color" data-toggle="collapse" data-toggle="modal" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar border_menu_color"></span>
+                <span class="icon-bar border_menu_color"></span>
+                <span class="icon-bar border_menu_color"></span>
+              </button>
+          </div>
+          <div class="row">
+            <div class="collapse navbar-collapse col-lg-7" id="bs-example-navbar-collapse-1">
+              <div class="modal-body center-block">
+                <ul class="nav navbar-nav center-block">
+                  <li class="arrow"><a href="#">Доставка и оплата<span class="sr-only ">(current)</span></a></li>
+                  <li class="arrow"><a href="#">Сервис и гарантия</a></li>
+                  <li class="arrow"><a href="#">Программа лояльности</a></li>
+                  <li class="arrow"><a href="#">О нас</a></li>
+                  <li class="arrow"><a href="#">Контакты</a></li>
+                  <li class="user hidden-lg"><a href="#" class="font_14 colorfont" role="button">Вход</a></li>
+                  <li class="log-in hidden-lg"><a href="#"  class="font_14 colorfont" role="button">Регистрация</a></li>
+              </ul>
+            </div>
+            </div>
+
+            <div class="col-xs-11 col-sm-4 col-lg-3  navbar-right indent text-right visible-lg-inline-block">
+              <div class="col-xs-12">
+                <a href="#" class="font12 colorfont user" role="button">Вход</a>
+                <a href="#"  class="font12 colorfont log-in" role="button">Регистрация</a>
+              </div>
+            </div>
+            <div class="hidden-lg hidden-xs col-sm-5  col-md-5 pull-right  text-right indent hidetext-right">
+              <a href="#" class="font12 colorfont bookmark" role="button">Закладки</a>
+              <a href="#"  class="font12 colorfont basket" role="button">
+              <span class="badge badge-light basket_count">0</span>Корзина</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container indent_logo">
+        <div class="row">
+          <div class="visible-lg-inline-block visible-xs-inline-block  col-xs-12 col-lg-3 col-lg-push-9 center text-right indent_a">
+            <a href="#" class="font12 colorfont bookmark" role="button">Закладки</a>
+            <a href="#"  class="font12 colorfont basket" role="button">
+            <span class="badge badge-light basket_count">0</span>Корзина</a>
+          </div>
+          <div class="col-xs-12   col-md-3 col-lg-3 col-lg-pull-3 t-a_navbar-brend">
+              <a  class="navbar-brend" href="#">
+                <h1 class="colorfonth1 fonth1 text-uppercase">Мастер</h1>
+                <div class="logo font13 colorfont"><span>Все для салонов красоты</span></div>
+              </a>
+          </div>
+        </div>
+          <div class="row">
+           <div class="col-xs-12 col-md-3">
+            <div class="row">
+               <div class="dropdown indent">
+               <a class="btn btn-secondary dropdown-toggle text-uppercase fontcolor font18 CenGotbold icon_arrow"  href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Каталог товаров</a>
+                <div class="dropdown-menu  dropdown-style " aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#">Маникюрные педикюрные принадлежности</a>
+                  <a class="dropdown-item" href="#">Гель-лаки и наращивание ногтей</a>
+                  <a class="dropdown-item" href="#">Парикмахерские инструменты и техника</a>
+                  <a class="dropdown-item" href="#">Восковая депиляция и парафинотерапия</a>
+                  <a class="dropdown-item" href="#">Наращивание ресниц, краска для бровей и ресниц</a>
+                  <a class="dropdown-item" href="#">Спецодежда и одноразовые принадлежности</a>
+                  <a class="dropdown-item" href="#">Оборудование для салонов</a>
+                  <a class="dropdown-item" href="#">Стерилизация инструментов</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-7 text-center m-t_21">
+            <form class="position">
+               <input type="text" id="formsearch" class="form-control  border_r" placeholder="">
+               <button type="submit" class="search_style"></button>
+            </form>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-2 text-right indent">
+            <div class="row">
+              <div class=" col-xs-5 col-md-12 colorfonth1 CenGotbold d-i_block">
+                <span>+38 (096) 569 93 22</span>
+              </div>
+              <div class="col-xs-offset-2 col-xs-5 col-md-offset-0 col-md-12 colorfonth1 CenGotbold d-i_block">
+                <span>+38 (096) 569 93 22</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="banner visible-lg-block">
+    <div class="container-fluid ">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="item active banner1">
+              <img  class="banner-item" src="image/banner_slide_1.jpg" alt="Все для салонов красоты">
+              <div class="container  myheight">
+               <div class="col-lg-offset-8 col-lg-4">
+                  <div class="border-gradient border-grad_slider">
+                      <h2 class="indent_h2 fonth2 fontcolor_white text-right  text-uppercase col-lg-offset-3 col-lg-9">Все для салонов красоты</h2>
+                  </div>
+              </div>
+            </div>
+              <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                 <span class="sr-only">Next</span>
+              </a>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+          </div>
+            <div class="item banner1">
+              <img  class="banner-item" src="image/banner_slide_2.jpg" alt="Все для салонов красоты">
+          <div class="container myheight">
+             <div class="col-lg-offset-8 col-lg-4">
+                <div class="border-gradient border-grad_slider">
+                    <h2 class="indent_h2 fonth2 fontcolor_white text-right  text-uppercase col-lg-offset-3 col-lg-9">Все для салонов красоты</h2>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+      </div>
+    </div>
+  </section>
+      <div class="container indenttop">
+        <div class="row">
+          <div class="col-xs-6 col-md-4">
+            <div class="advantages_m">
+                <div class="col-xs-offset-1 col-xs-11 col-sm-offset-2 col-sm-10"><div class="row  p-l_10"><h3 class="styleh3 font_24 fontcolor text-uppercase">Гарантия Качества</h3></div></div>
+                <p class="text-left">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <div class="advantages_pink">
+                <div class="col-xs-offset-1 col-xs-11 col-sm-offset-2 col-sm-10"><div class="row  p-l_10"><h3 class="styleh3 font_24 fontcolor text-uppercase">Гарантия Сервиса</h3></div></div>
+                <p class="text-left">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+            </div>
+          </div>
+          <div class="clearfix hidden-md hidden-lg"></div>
+          <div class="col-xs-offset-2 col-xs-8 col-md-offset-0 col-md-4">
+            <div class="advantages mediaxs">
+                <div class="col-xs-offset-1 col-xs-11 col-sm-offset-2 col-sm-10"><div class="row p-l_10"><h3 class="styleh3 font_24 fontcolor text-uppercase">Гарантия Успеха</h3></div></div>
+                <p class="text-left">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum</p>
+            </div>
+          </div>
+        </div>
+        <div class="row indentb_m">
+          <div class="col-xs-12 col-md-7 stock">
+            <div class="col-xs-12 col-sm-6 col-md-5 col-lg-4 backgpos ">
+                <div><a href="#"><h2 class="m_b font_24 CenGotbold text-uppercase fontcolor_white">Акционное предложение</h2></a></div>
+                <div><span class="fontcolor_white font12">Товары недели</span></div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-5 sale mediaxs">
+              <div class="col-xs-12  col-sm-offset-2 col-sm-10 col-lg-offset-4 col-lg-8  backg_sale m-t_15">
+                  <a href="#"><h2 class="text-left m-t_0 m_b font_24 fontcolor_gray text-uppercase fontcolor_white">
+                    <span class=" font_72">50%  </span>
+                    <span>скидки</span>
+                    <span class="p-l_7"> на всю косметику</span>
+                    <span class="visible-xs-inline text-left">фирмы</span>
+                    <span class="visible-xs-inline  text-left CenGotbold">Spa</span>
+                  </h2></a>
+              </div>
+              <div class="hidden-xs col-xs-12 col-sm-offset-6 col-sm-6 col-lg-offset-7 col-lg-5 backg_sale ">
+                  <h2 class="m-t_12 m_b font_24 fontcolor_gray text-uppercase fontcolor_white">
+                    <span class="text-left">фирмы</span>
+                    <span class="text-left CenGotbold">Spa</span>
+                  </h2>
+              </div>
+          </div>
+        </div>
+      </div>
+        <div class="container indentb_m">
+            <div class="col-xs-offset-3 col-xs-9 col-sm-offset-1 col-sm-11  col-md-offset-3 col-md-6">
+              <div class="col-xs-12 col-sm-offset-3 col-sm-8 styleh3 m-b_60">
+                <div class="row">
+                    <h3 class="best  text-left font_36 text-uppercase"><a class="fontcolor hovered" href="#">Хиты продаж</a></h3>
+                </div>
+              </div>
+           </div>
+        </div>
+          <div class="container">
+            <div class="owl-carousel carousel_best_novelty owl-theme">
+                    <div class="col-xs-12 m-b_30">
+                          <div class="m-t_12 text-center">
+                              <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                              <span class="text-uppercase">"DELICA"</span></a>
+                          </div>
+                          <div>
+                              <a href="#"><img src="image/550038188_w200_h200_after_wax_spra__oy_800x600.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                          </div>
+                          <div class="rating_block">
+                             <input name="rating" value="5" id="rating_5" type="radio"/>
+                             <label for="rating_5" class="label_rating"></label>
+                             <input name="rating" value="4" id="rating_4" type="radio"/>
+                             <label for="rating_4" class="label_rating"></label>
+                             <input name="rating" value="3" id="rating_3" type="radio"/>
+                             <label for="rating_3" class="label_rating"></label>
+                             <input name="rating" value="2" id="rating_2" type="radio"/>
+                             <label for="rating_2" class="label_rating"></label>
+                             <input name="rating" value="1" id="rating_1" type="radio"/>
+                             <label for="rating_1" class="label_rating"></label>
+                           </div>
+                           <div class="text-center">
+                               <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                               <span class="fontcolor"><s>215 грн</s></span>
+                           </div>
+                          <form class="m-t_12 form-inline" action="#">
+                            <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                              <div class="row">
+                                 <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                                <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                                <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                             </div>
+                             </div>
+                          </form>
+                  </div>
+                  <div class="col-xs-12 m-b_30">
+                        <div class="m-t_12 text-center">
+                            <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                            <span class="text-uppercase">"DELICA"</span></a>
+                        </div>
+                        <div >
+                            <a href="#"><img src="image/22052455_w200_h200_38555.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                        </div>
+                      <div>
+                        <div class="rating_block">
+                           <input name="rating" value="5" id="rating_5" type="radio"/>
+                           <label for="rating_5" class="label_rating"></label>
+                           <input name="rating" value="4" id="rating_4" type="radio"/>
+                           <label for="rating_4" class="label_rating"></label>
+                           <input name="rating" value="3" id="rating_3" type="radio"/>
+                           <label for="rating_3" class="label_rating"></label>
+                           <input name="rating" value="2" id="rating_2" type="radio"/>
+                           <label for="rating_2" class="label_rating"></label>
+                           <input name="rating" value="1" id="rating_1" type="radio"/>
+                           <label for="rating_1" class="label_rating"></label>
+                         </div>
+
+                         <div class="text-center">
+                             <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                             <span class="fontcolor"><s>215 грн</s></span>
+                         </div>
+                      </div>
+                      <form class="m-t_12 form-inline" action="#">
+                        <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                          <div class="row">
+                             <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                            <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                            <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                         </div>
+                         </div>
+                      </form>
+
+                </div>
+                <div class="col-xs-12 m-b_30">
+                      <div class="m-t_12 text-center">
+                          <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                          <span class="text-uppercase">"DELICA"</span></a>
+                      </div>
+                      <div>
+                          <a href="#"><img src="image/22596595_w200_h200_45500x500.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                      </div>
+
+                      <div class="rating_block">
+                         <input name="rating" value="5" id="rating_5" type="radio"/>
+                         <label for="rating_5" class="label_rating"></label>
+                         <input name="rating" value="4" id="rating_4" type="radio"/>
+                         <label for="rating_4" class="label_rating"></label>
+                         <input name="rating" value="3" id="rating_3" type="radio"/>
+                         <label for="rating_3" class="label_rating"></label>
+                         <input name="rating" value="2" id="rating_2" type="radio"/>
+                         <label for="rating_2" class="label_rating"></label>
+                         <input name="rating" value="1" id="rating_1" type="radio"/>
+                         <label for="rating_1" class="label_rating"></label>
+                       </div>
+
+                       <div class="text-center">
+                           <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                           <span class="fontcolor"><s>215 грн</s></span>
+                       </div>
+                      <form class="m-t_12 form-inline" action="#">
+                        <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                          <div class="row">
+                             <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                            <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                            <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                         </div>
+                         </div>
+                      </form>
+              </div>
+              <div class="col-xs-12 m-b_30">
+                    <div class="m-t_12 text-center">
+                        <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                        <span class="text-uppercase">"DELICA"</span></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="image/553329695_w200_h200_2ad0bf071c578d__daa6671d77.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                    </div>
+
+                    <div class="rating_block">
+                       <input name="rating" value="5" id="rating_5" type="radio"/>
+                       <label for="rating_5" class="label_rating"></label>
+                       <input name="rating" value="4" id="rating_4" type="radio"/>
+                       <label for="rating_4" class="label_rating"></label>
+                       <input name="rating" value="3" id="rating_3" type="radio"/>
+                       <label for="rating_3" class="label_rating"></label>
+                       <input name="rating" value="2" id="rating_2" type="radio"/>
+                       <label for="rating_2" class="label_rating"></label>
+                       <input name="rating" value="1" id="rating_1" type="radio"/>
+                       <label for="rating_1" class="label_rating"></label>
+                     </div>
+
+                    <div class="text-center">
+                        <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                        <span class="fontcolor"><s>215 грн</s></span>
+                    </div>
+                    <form class="m-t_12 form-inline" action="#">
+                      <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                        <div class="row">
+                           <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                        <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                          <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                       </div>
+                       </div>
+                    </form>
+                 </div>
+               </div>
+            </div>
+            <div class="container indentb_m">
+                <div class="col-xs-offset-2 col-xs-8 col-md-offset-3 col-md-6">
+                  <div class="col-xs-offset-3 col-xs-6 col-sm-offset-4 col-sm-6 col-lg-5 styleh3 m-b_60">
+                    <div class="row">
+                        <h3 class="novelty fontcolor text-left font_36 text-uppercase"><a class="hovered fontcolor" href="#">Новинки</a></h3>
+                    </div>
+                  </div>
+               </div>
+            </div>
+
+              <div class="container">
+                <div class="owl-carousel carousel_best_novelty owl-theme">
+                        <div class="col-xs-12 m-b_30">
+                              <div class="m-t_12 text-center">
+                                  <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                                  <span class="text-uppercase">"DELICA"</span></a>
+                              </div>
+                              <div>
+                                  <a href="#"><img src="image/550038188_w200_h200_after_wax_spra__oy_800x600.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                              </div>
+                              <div class="rating_block">
+                                 <input name="rating" value="5" id="rating_5" type="radio"/>
+                                 <label for="rating_5" class="label_rating"></label>
+                                 <input name="rating" value="4" id="rating_4" type="radio"/>
+                                 <label for="rating_4" class="label_rating"></label>
+                                 <input name="rating" value="3" id="rating_3" type="radio"/>
+                                 <label for="rating_3" class="label_rating"></label>
+                                 <input name="rating" value="2" id="rating_2" type="radio"/>
+                                 <label for="rating_2" class="label_rating"></label>
+                                 <input name="rating" value="1" id="rating_1" type="radio"/>
+                                 <label for="rating_1" class="label_rating"></label>
+                               </div>
+
+                               <div class="text-center">
+                                   <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                                   <span class="fontcolor"><s>215 грн</s></span>
+                               </div>
+                              <form class="m-t_12 form-inline" action="#">
+                                <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                                  <div class="row">
+                                     <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                                    <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                                    <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                                 </div>
+                                 </div>
+                              </form>
+
+                      </div>
+                      <div class="col-xs-12 m-b_30">
+                            <div class="m-t_12 text-center">
+                                <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                                <span class="text-uppercase">"DELICA"</span></a>
+                            </div>
+                            <div >
+                                <a href="#"><img src="image/22052455_w200_h200_38555.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                            </div>
+                          <div>
+                            <div class="rating_block">
+                               <input name="rating" value="5" id="rating_5" type="radio"/>
+                               <label for="rating_5" class="label_rating"></label>
+                               <input name="rating" value="4" id="rating_4" type="radio"/>
+                               <label for="rating_4" class="label_rating"></label>
+                               <input name="rating" value="3" id="rating_3" type="radio"/>
+                               <label for="rating_3" class="label_rating"></label>
+                               <input name="rating" value="2" id="rating_2" type="radio"/>
+                               <label for="rating_2" class="label_rating"></label>
+                               <input name="rating" value="1" id="rating_1" type="radio"/>
+                               <label for="rating_1" class="label_rating"></label>
+                             </div>
+
+                             <div class="text-center">
+                                 <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                                 <span class="fontcolor"><s>215 грн</s></span>
+                             </div>
+                          </div>
+                          <form class="m-t_12 form-inline" action="#">
+                            <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                              <div class="row">
+                                 <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                                <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                                <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                             </div>
+                             </div>
+                          </form>
+                    </div>
+                    <div class="col-xs-12 m-b_30">
+                          <div class="m-t_12 text-center">
+                              <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                              <span class="text-uppercase">"DELICA"</span></a>
+                          </div>
+                          <div>
+                              <a href="#"><img src="image/22596595_w200_h200_45500x500.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                          </div>
+
+                          <div class="rating_block">
+                             <input name="rating" value="5" id="rating_5" type="radio"/>
+                             <label for="rating_5" class="label_rating"></label>
+                             <input name="rating" value="4" id="rating_4" type="radio"/>
+                             <label for="rating_4" class="label_rating"></label>
+                             <input name="rating" value="3" id="rating_3" type="radio"/>
+                             <label for="rating_3" class="label_rating"></label>
+                             <input name="rating" value="2" id="rating_2" type="radio"/>
+                             <label for="rating_2" class="label_rating"></label>
+                             <input name="rating" value="1" id="rating_1" type="radio"/>
+                             <label for="rating_1" class="label_rating"></label>
+                           </div>
+
+                           <div class="text-center">
+                               <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                               <span class="fontcolor"><s>215 грн</s></span>
+                           </div>
+                          <form class="m-t_12 form-inline" action="#">
+                            <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                              <div class="row">
+                                 <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                                <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                                <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                             </div>
+                             </div>
+                          </form>
+                  </div>
+                  <div class="col-xs-12 m-b_30 ">
+                        <div class="m-t_12 text-center">
+                            <a class="hovered font_14 CenGotbold  fontcolor">Масло после депиляции с лавандой и витамином Е
+                            <span class="text-uppercase">"DELICA"</span></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="image/553329695_w200_h200_2ad0bf071c578d__daa6671d77.jpg" alt=" Масло после депиляции с лавандой и витамином Е &quot; DELICA &quot;"></a>
+                        </div>
+                        <div class="rating_block">
+                           <input name="rating" value="5" id="rating_5" type="radio"/>
+                           <label for="rating_5" class="label_rating"></label>
+                           <input name="rating" value="4" id="rating_4" type="radio"/>
+                           <label for="rating_4" class="label_rating"></label>
+                           <input name="rating" value="3" id="rating_3" type="radio"/>
+                           <label for="rating_3" class="label_rating"></label>
+                           <input name="rating" value="2" id="rating_2" type="radio"/>
+                           <label for="rating_2" class="label_rating"></label>
+                           <input name="rating" value="1" id="rating_1" type="radio"/>
+                           <label for="rating_1" class="label_rating"></label>
+                         </div>
+                         <div class="text-center">
+                             <span class="font_24 colorfonth1">180</span><span class="colorfonth1 font_16"> грн</span>
+                             <span class="fontcolor"><s>215 грн</s></span>
+                         </div>
+                        <form class="m-t_12 form-inline" action="#">
+                          <div class="form-group col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-12 clearfix">
+                            <div class="row">
+                               <label class="p-r_5 m-t_5 pull-left fontcolor" for="#sale_number">Кол-во</label>
+                              <input class="fontcolor p-l_10  text-center" type="number" id="sale_number" value="1">
+                              <input class="CenGotbold pull-right text-uppercase fontcolor_white bg_pink" type="submit" value="Купить">
+                           </div>
+                           </div>
+                        </form>
+                      </div>
+                   </div>
+                </div>
+              <div class="container-fluid b-g_color2">
+                <div class="container indentb_m ">
+                    <div class="col-xs-offset-3 col-xs-7 col-sm-offset-4 col-sm-3 col-md-offset-5 col-md-3 m-b_60">
+                      <div class="col-xs-12 col-md-11 col-lg-7 styleh3 ">
+                      <div class="row">
+                        <a href="#"><h3 class="media_t-a t-a_reviews fontcolor_white text-left font_36 text-uppercase">Отзывы</h3></a>
+                      </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="container ">
+                        <div class="owl-carousel owl-carousel_reviews">
+                                   <div class="fontcolor_white reviews">
+                                     <div class="col-xs-12 clearfix">
+                                         <p class="m-b_40 text-left centgotitalic">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                         <span class="pull-left CenGotbold">Лилия Таран</span>
+                                      </div>
+                                 </div>
+                                 <div class="fontcolor_white reviews">
+                                    <div class="col-xs-12 clearfix">
+                                       <p class="m-b_40 text-left centgotitalic">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                       <span class="pull-left CenGotbold">Лилия Таран</span>
+                                     </div>
+                               </div>
+                               <div class="fontcolor_white reviews">
+                                  <div class="col-xs-12 clearfix">
+                                     <p class="m-b_40 text-left centgotitalic">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
+                                     <span class="pull-left CenGotbold">Лилия Таран</span>
+                                 </div>
+                             </div>
+                    </div>
+                </div>
+              </div>
+
+          <div class="container-fluide company_info ">
+            <div class="container indentb_m">
+                <div class="col-xs-offset-1 col-xs-11 col-md-offset-3 col-md-6">
+                  <div class=" col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-7 styleh3 m-b_50">
+                    <div class="row">
+                        <h3 class="media_t-a fontcolor info text-left font_36 text-uppercase">О компании</h3>
+                    </div>
+                  </div>
+               </div>
+                <div class="col-xs-offset-2 col-xs-8 ">
+                   <div class="owl-carousel owl-carousel_info ">
+                      <div class="text-left fontcolor_gray ">
+                          <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.<br>
+                          Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                          <p>Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+                          <p>Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. </p>
+                          <p>Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                       </div>
+                       <div class="text-left fontcolor_gray ">
+                          <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                          <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                          <p>Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+                          <p>Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. </p>
+                          <p>Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                      </div>
+                      <div class="text-left fontcolor_gray ">
+                          <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. </p>
+                          <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</p>
+                          <p>Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
+                          <p>Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. </p>
+                          <p>Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+                      </div>
+                   </div>
+                </div>
+              </div>
+            </div>
+        <footer>
+        <div class="container-fluid b-g_color3">
+          <div class="container">
+            <div class="col-lg-3 visible-lg-inline-block">
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class="col-lg-11">
+                   <div class="row">
+                      <h4 class="m-b_35 p-b_5 m-t_60 text-justify fontcolor_white text-uppercase font_18 styleh3"><a href="#" class="text-justify fontcolor_white"><strong>Каталог&nbsp;&nbsp;Товаров</strong></a></h4>
+                  </div>
+                 </div>
+                </div>
+             </div>
+
+              <ul class="catalog">
+                  <li><a href="#">Маникюр и педикюр</a></li>
+                  <li><a href="#">Парикмахеское искусство</a></li>
+                  <li><a href="#">Все для депиляции</a></li>
+                  <li><a href="#" >Ресницы</a></li>
+                  <li><a href="#">Хна для росписи тела</a></li>
+                  <li><a href="#">Оборудование</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 visible-lg-inline-block">
+              <div class="col-lg-9">
+                <div class="row">
+                  <div class="col-lg-9">
+                   <div class="row">
+                     <h4 class="m-b_35 p-b_5 m-t_60 text-uppercase font_18 styleh3"><a href="#" class="text-justify fontcolor_white"><strong>Покупателям</strong></a></h4>
+                  </div>
+                 </div>
+                </div>
+             </div>
+             <ul class="catalog">
+                 <li><a href="#">Доставка и опалата</a></li>
+                 <li><a href="#">Сервис и гарантия</a></li>
+                 <li><a href="#">Программа лояльности</a></li>
+                 <li><a href="#" >О нас</a></li>
+                 <li><a href="#">Контакты</a></li>
+            </ul>
+            </div>
+            <div class="col-xs-offset-2 col-xs-8 col-lg-offset-0 col-lg-3">
+              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-1 col-sm-11 col-lg-offset-0 col-lg-9">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-offset-4 col-sm-4 col-md-3 col-lg-offset-0 col-lg-6">
+                   <div class="row">
+                      <h4 class="media_t-a m-b_35 p-b_5 m-t_60 text-uppercase font_18 styleh3"><a href="#" class="text-justify fontcolor_white"><strong>Контакты</strong></a></h4>
+                  </div>
+                 </div>
+                </div>
+             </div>
+             <div class="contacts col-xs-offset-2 col-xs-10 col-sm-offset-2 col-xs-11 col-lg-offset-2 col-lg-10 fontcolor_white">
+                <p class="m-b_30"> пр-т Гагарина 41/2, г.Харьков </p>
+                <p class="m-b_30"><a class="fontcolor_white" href="#">vfon@ukr.net</a></p>
+                <div  class="col-xs-10 m-b_30 fontcolor_white">
+                  <div class="row">
+                    <span>+380 (96) 569-93-22</span>
+                    <span>+380 (63) 051-63-76</span>
+                    <span>+380 (95) 800-49-95 </span>
+                  </div>
+                </div>
+               <div  class="m-b_60 col-xs-10 fontcolor_white">
+                 <div class="row">
+                  <span>Пн-пт 9:00-18:00</span>
+                  <span>Сб&nbsp;&nbsp;&nbsp;10:00-16:00</span>
+                  <span>Вс&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;выходной</span>
+               </div>
+              </div>
+          </div>
+        </div>
+            <div class="col-xs-offset-2 col-xs-8 col-sm-offset-2 col-sm-8 col-lg-offset-0 col-lg-3">
+              <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-lg-offset-0 col-lg-9">
+                <div class="row">
+                  <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 col-lg-offset-0 col-lg-12">
+                   <div class="row">
+                      <h4 class="media_t-a m-b_35 p-b_5 m-t_60 text-justify fontcolor_white text-uppercase font_18 styleh3"><a href="#" class="text-justify fontcolor_white"><strong>Социальные&nbsp;&nbsp;сети</strong></a></h4>
+                  </div>
+                 </div>
+                </div>
+              </div>
+              <div class="text-center_social_xs col-xs-12 col-sm-offset-3 col-sm-7 col-md-offset-4 col-md-6 col-lg-offset-0 col-lg-10">
+              <div class="row">
+               <ul class="social">
+                   <li><a href="#"></a></li>
+                   <li><a href="https://www.instagram.com"></a></li>
+                   <div class="visible-xs-block width_100"></div>
+                   <li><a href="#"></a></li>
+                   <li><a href="#"></a></li>
+               </ul>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="container-fluid">
+          <a href="#"><p class="m-t-b font_color3 text-center">© 2016  All rights reserved.</p></a>
+        </div>
+        </footer>
+
+
+
+
+
+
+
+          <script>
+              $('.carousel_best_novelty').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              pagination: true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  800:{
+                      items:3
+                  },
+                  1200:{
+                      items:4
+                  }
+              }
+            })
+          </script>
+          <script>
+              $('.owl-carousel_reviews').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:2
+                  },
+                  1200:{
+                      items:3
+                  }
+              }
+            })
+          </script>
+          <script>
+              $('.owl-carousel_info').owlCarousel({
+              loop:true,
+              margin:10,
+              nav:true,
+              responsive:{
+                  0:{
+                      items:1
+                  },
+                  600:{
+                      items:1
+                  },
+                  1200:{
+                      items:1
+                  }
+              }
+            })
+          </script>
+
+
+
+
+    <script> </script>
+  </body>
+</html>
